@@ -1,22 +1,22 @@
 // git add . && git commit -m "first commit" && git push
 
-import './App.css'
-import bootstrap from 'bootstrap/dist/css/bootstrap.css'
-import { BrowserRouter as Router } from 'react-router-dom'
-import Routes from '../routes'
-import header from '../components/header'
-import footer from '../components/footer'
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.css';
+import { BrowserRouter as Router } from 'react-router-dom';
+import Routes from '../routes';
+import Header from '../src/components/header';
+import Footer from '../src/components/Footer';
 
-function App() {
+const App = () => {
   return (
     <Router>
       <div className="App">
-        {header}
-        <Routes />
-        {footer}
+        <Header />
+          <Routes />
+        <Footer />
       </div>
     </Router>
   );
 };
 
-export default App
+export default App;
