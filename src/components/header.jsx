@@ -34,3 +34,5 @@ const Header = () => {
 };
 
 export default Header;
+
+//add switching and routes so that displays relevant section when navbar clicked and hides rest of sections
