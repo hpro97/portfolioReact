@@ -91,15 +91,10 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #5b575c; /* #5B575C - Gray */
-    background-color: #f7b9ff; /* #F7B9FF - Light pink */
+
+@media (max-width: 500px) {
+  .navbar.navContainer {
+    display: block; /* Change to block for smaller screens */
   }
-  a:hover {
-    color: #794980; /* #794980 - Purple */
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+
 }
