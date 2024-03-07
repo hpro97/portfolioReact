@@ -40,7 +40,7 @@ html, body {
   padding: 0;
   width: 100%;
   background-color: #2e0c33;
-  color: #a57daa;
+  color: #a57daa; 
 
 }
 
@@ -62,6 +62,18 @@ nav {
 }
 
 .nav-item-right {
+  font-size: 1.2rem;
+  margin-right: 3.5rem;
+  margin-left: 3rem;
+}
+
+footer {
+  color: #a57daa; 
+  font-size: 1.2rem;
+}
+
+.textPersonal {
+  color: #a57daa; 
   font-size: 1.2rem;
   margin-right: 3.5rem;
   margin-left: 3rem;
@@ -92,9 +104,12 @@ button:focus-visible {
 }
 
 
-@media (max-width: 500px) {
-  .navbar.navContainer {
+@media (max-width: 550px) {
+  .navContainer,{
     display: block; /* Change to block for smaller screens */
+  }
+  .blockMedia {
+    display: block;
   }
 
 }

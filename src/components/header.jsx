@@ -11,7 +11,7 @@ const Header = () => {
         <a className="navbar-brand" href="#">
           Harry Probert's Portfolio
         </a>
-        <div className="navbar navContainer">
+        <div className="navbar navContainer blockMedia">
           <div className="nav-item active nav-item-right">
             <a className="nav-link" href="#">
               Home <span className="sr-only">(current)</span>
