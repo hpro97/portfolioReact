@@ -79,6 +79,14 @@ footer {
   margin-left: 3rem;
 }
 
+.textPersonalBold {
+  font-weight: bold;
+  color: black;
+  font-size: 1.4rem;
+  margin-right: 3.5rem;
+  margin-left: 3rem;
+}
+
 h1 {
   font-size: 3.2em;
   line-height: 1.1;

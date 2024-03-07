@@ -25,7 +25,7 @@ const Footer = () => {
               </a>
             </li>
           </ul>
-          <p class="text-center textPersonal">© 2024 Harry Probert</p>
+          <p class="text-center textPersonalBold">© 2024 Harry Probert</p>
         </footer>
   );
 };
