@@ -26,6 +26,7 @@ colour pallete
   -webkit-text-size-adjust: 100%;
 }
 
+
 a {
   font-weight: 500;
   color: #794980; /* #794980 - Purple */
@@ -87,6 +88,33 @@ footer {
   margin-left: 3rem;
 }
 
+.textPersonalMainHeader {
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.863);
+  font-size: 2rem;
+  margin-right: 3.5rem;
+  margin-left: 3rem;
+}
+
+.textPersonalHeader {
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.562);
+  font-size: 1.3rem;
+  margin-left: 3rem;
+}
+
+.textPersonal2 {
+  color: #a57daa; 
+  font-size: 0.9rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+.padder {
+ margin: 3rem;
+ padding: 3rem;
+}
+
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
@@ -119,5 +147,28 @@ button:focus-visible {
   .blockMedia {
     display: block;
   }
+  .padder {
+    margin: 1rem;
+    padding: 1rem;
+  }
 
 }
+
+@media (max-width: 1200px) {
+
+  .icons {
+    display: inline-block;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+  }
+  .central {
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+    margin: 2rem;
+  }
+  }
+

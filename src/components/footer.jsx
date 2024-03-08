@@ -1,9 +1,6 @@
 // src/components/footer.jsx
 // git add . && git commit -m "first commit" && git push
 
-import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import '../CSS/index.css';
 
 const Footer = () => {
   return (
