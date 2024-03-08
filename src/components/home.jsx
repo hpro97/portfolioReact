@@ -131,5 +131,8 @@ const Home = () => {
 
 export default Home;
 
+//to do:
 
-
+//add download CV button
+//add media query for bages to display smaller for 1200ish 800ish 600ish and under 400
+//fix img display to display central at all times, even on smaller screens, check above and on inspect tool

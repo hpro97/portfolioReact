@@ -28,3 +28,7 @@ const Footer = () => {
 };
 
 export default Footer;
+
+//to do:
+
+//fix footer at bottom of page always
