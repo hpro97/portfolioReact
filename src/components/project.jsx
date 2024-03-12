@@ -11,3 +11,7 @@ const Project = () => {
 };
 
 export default Project;
+
+//add welcome and how to use what is doing
+//add project cards, rotating casrousel called from gallery
+

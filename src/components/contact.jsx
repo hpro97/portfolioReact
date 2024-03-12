@@ -11,3 +11,13 @@ const Contact = () => {
 };
 
 export default Contact;
+
+//add email address link and badge
+
+//add phone number
+
+//add linkedin link and badge
+
+//add github link and badge
+
+//add download CV button and add cv to assets folder
