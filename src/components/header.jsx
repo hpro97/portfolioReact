@@ -1,6 +1,7 @@
 // git add . && git commit -m "first commit" && git push
 
 import React from 'react';
+import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../CSS/index.css';
 
@@ -8,26 +9,26 @@ const Header = () => {
   return (
     <header>
       <nav className="navbar navbar-light bg-light">
-        <a className="navbar-brand" href="#">
+        <Link to="/" className="navbar-brand">
           Harry Probert's Portfolio
-        </a>
+        </Link>
         <div className="navbar navContainer blockMedia">
           <div className="nav-item active nav-item-right">
-            <a className="nav-link" href="#">
+            <Link to="/" className="nav-link">
               Home <span className="sr-only">(current)</span>
-            </a>
+            </Link>
           </div>
           <div className="nav-item nav-item-right">
-            <a className="nav-link" href="#">
+            <Link to="/projects" className="nav-link">
               Projects
-            </a>
+            </Link>
           </div>
           <div className="nav-item nav-item-right">
-            <a className="nav-link" href="#">
+            <Link to="/contact" className="nav-link">
               Contact
-            </a>
+            </Link>
           </div>
-          </div>
+        </div>
       </nav>
     </header>
   );
@@ -35,4 +36,3 @@ const Header = () => {
 
 export default Header;
 
-//add switching and routes so that displays relevant section when navbar clicked and hides rest of sections
