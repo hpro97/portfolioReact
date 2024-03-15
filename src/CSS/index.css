@@ -1,4 +1,4 @@
-/* git add . && git commit -m "first commit" && git push
+/*git add . && git commit -m "first commit" && git push
 
 colour pallete 
 #D2BFD5
@@ -17,8 +17,7 @@ colour pallete
 
   color-scheme: light dark;
   color: #a57daa;
-  background-color: #2e0c33;
-  /* #2E0C33 - Dark purple */
+  background-color: #2e0c33; /* #2E0C33 - Dark purple */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -30,23 +29,19 @@ colour pallete
 
 a {
   font-weight: 500;
-  color: #794980;
-  /* #794980 - Purple */
+  color: #794980; /* #794980 - Purple */
   text-decoration: inherit;
 }
-
 a:hover {
-  color: #a57daa;
-  /* #A57DAA - Light purple */
+  color: #a57daa; /* #A57DAA - Light purple */
 }
 
-html,
-body {
+html, body {
   margin: 0;
   padding: 0;
   width: 100%;
   background-color: #2e0c33;
-  color: #a57daa;
+  color: #a57daa; 
 
 }
 
@@ -74,12 +69,12 @@ nav {
 }
 
 footer {
-  color: #a57daa;
+  color: #a57daa; 
   font-size: 1.2rem;
 }
 
 .textPersonal {
-  color: #a57daa;
+  color: #a57daa; 
   font-size: 1.2rem;
   margin-right: 3.5rem;
   margin-left: 3rem;
@@ -109,15 +104,15 @@ footer {
 }
 
 .textPersonal2 {
-  color: #a57daa;
+  color: #a57daa; 
   font-size: 0.9rem;
   margin-right: 2rem;
   margin-left: 2rem;
 }
 
 .padder {
-  margin: 3rem;
-  padding: 3rem;
+ margin: 3rem;
+ padding: 3rem;
 }
 
 h1 {
@@ -132,17 +127,13 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #794980;
-  /* #794980 - Purple */
+  background-color: #794980; /* #794980 - Purple */
   cursor: pointer;
   transition: border-color 0.25s;
 }
-
 button:hover {
-  border-color: #a57daa;
-  /* #A57DAA - Light purple */
+  border-color: #a57daa; /* #A57DAA - Light purple */
 }
-
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
@@ -150,21 +141,16 @@ button:focus-visible {
 
 
 @media (max-width: 550px) {
-
-  .navContainer,
-  {
-  display: block;
-  /* Change to block for smaller screens */
-}
-
-.blockMedia {
-  display: block;
-}
-
-.padder {
-  margin: 1rem;
-  padding: 1rem;
-}
+  .navContainer,{
+    display: block; /* Change to block for smaller screens */
+  }
+  .blockMedia {
+    display: block;
+  }
+  .padder {
+    margin: 1rem;
+    padding: 1rem;
+  }
 
 }
 
@@ -177,7 +163,6 @@ button:focus-visible {
     align-items: center;
 
   }
-
   .central {
     text-align: center;
     justify-content: space-around;
@@ -185,4 +170,5 @@ button:focus-visible {
     padding: 2rem;
     margin: 2rem;
   }
-}
+  }
+

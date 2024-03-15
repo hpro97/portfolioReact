@@ -1,13 +1,12 @@
 // src/components/footer.jsx
 // git add . && git commit -m "first commit" && git push
 
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
-    <footer className="py-3 my-4 bg-light">
+    <footer className="py-3 bg-light fixed-bottom"> {/* Add 'fixed-bottom' class */}
       <ul className="nav justify-content-center border-bottom pb-3 mb-3 blockMedia">
         <li className="nav-item">
           {/* Use Link for navigation */}
@@ -36,6 +35,5 @@ const Footer = () => {
 export default Footer;
 
 
-//to do:
 
-//fix footer at bottom of page always
+//to do:

@@ -14,10 +14,7 @@ import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 const Contact = () => {
   return (
     <div className="py-2">
-      {" "}
-      {/* Adding padding top and bottom */}
       <h1 className="textPersonalMainHeader pt-2">Contact Me</h1>{" "}
-      {/* Adding padding top */}
       <hr className="w-75" />
       <div className="container">
         <div className="row">
