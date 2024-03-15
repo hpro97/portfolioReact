@@ -97,8 +97,8 @@ footer {
 }
 
 .textPersonalHeader {
-  font-weight: bold;
-  color: rgba(255, 255, 255, 0.562);
+  
+  color: black;
   font-size: 1.3rem;
   margin-left: 3rem;
 }
