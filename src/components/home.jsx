@@ -77,6 +77,8 @@ const Home = () => {
           <div className="col-lg-6 d-flex align-items-center justify-content-center">
             <div className="text-center central">
               {/* Badges */}
+              <div className="card">
+              <div className="card-body">
               <div className="padder icons">
                 <FontAwesomeIcon
                   icon={faHtml5}
@@ -110,13 +112,17 @@ const Home = () => {
                 />
                 {/* Add more badges as needed */}
               </div>
+              </div>
+              </div>
               {/* Image */}
+              
               <img
                 src={Me}
-                className="d-block mx-lg-auto img-fluid rounded-circle mt-3 padder"
+                className="d-block mx-lg-auto img-fluid rounded-circle mt-3 smallPadder"
                 alt="Profile Picture"
                 width="400"
                 loading="lazy"
+                style={{ border: "0.2rem solid white" }}
               />
             </div>
           </div>
