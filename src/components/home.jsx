@@ -1,6 +1,6 @@
 // git add . && git commit -m "first commit" && git push
 
-import React from 'react';
+import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHtml5,
@@ -37,24 +37,29 @@ const Home = () => {
   const sections = [
     {
       title: "About Me:",
-      content: "Hey, I'm Harry, a junior developer with a passion for front-end development and software engineering. Recently, I completed a rigorous Front End Web Development & UI/UX boot camp with EdX through the University of Birmingham, where I honed my skills in HTML, CSS, Bootstrap, JavaScript, jQuery, React, Node.js, ES6, and API usage. As an Industrial Electrician by trade, I decided to delve into web development to expand my skill set. Armed with a certificate in Front End Web Development & UI/UX, I'm eager to make the transition to a professional setting. In addition to my technical skills, I bring a unique background as an Industrial Electrician, TEFL Teacher, and Bilingual Spanish Speaker. This blend of experiences enhances my problem-solving and analytical abilities, making me a well-rounded developer."
+      content:
+        "Hey, I'm Harry, a junior developer with a passion for front-end development and software engineering. Recently, I completed a rigorous Front End Web Development & UI/UX boot camp with EdX through the University of Birmingham, where I honed my skills in HTML, CSS, Bootstrap, JavaScript, jQuery, React, Node.js, ES6, and API usage. As an Industrial Electrician by trade, I decided to delve into web development to expand my skill set. Armed with a certificate in Front End Web Development & UI/UX, I'm eager to make the transition to a professional setting. In addition to my technical skills, I bring a unique background as an Industrial Electrician, TEFL Teacher, and Bilingual Spanish Speaker. This blend of experiences enhances my problem-solving and analytical abilities, making me a well-rounded developer.",
     },
     {
       title: "Projects and Experience:",
-      content: "Through my boot camp, the course provided me with a solid foundation, along with hands-on experience. I've actively applied these skills to over 15 boot camp and personal projects (which you can find in the 'PROJECTS' section located in the navBar or below in the footer), refining my abilities and gaining practical experience in the aforementioned and other related tools."
+      content:
+        "Through my boot camp, the course provided me with a solid foundation, along with hands-on experience. I've actively applied these skills to over 15 boot camp and personal projects (which you can find in the 'PROJECTS' section located in the navBar or below in the footer), refining my abilities and gaining practical experience in the aforementioned and other related tools.",
     },
     {
       title: "Ready for the Next Chapter:",
-      content: "Now armed with a solid foundation and practical experience, I'm eager to transition this knowledge into a professional setting. Opportunities in front-end development and software engineering are what I'm seeking, ready to contribute and continue my learning journey."
+      content:
+        "Now armed with a solid foundation and practical experience, I'm eager to transition this knowledge into a professional setting. Opportunities in front-end development and software engineering are what I'm seeking, ready to contribute and continue my learning journey.",
     },
     {
       title: "Interests Beyond Coding:",
-      content: "When I'm not immersed in coding, you'll find me exploring my interests in gaming, Traditional Tattoo Design, Electronic Music, and Punk. These passions fuel my creativity and add unique perspectives to my work."
+      content:
+        "When I'm not immersed in coding, you'll find me exploring my interests in gaming, Traditional Tattoo Design, Electronic Music, and Punk. These passions fuel my creativity and add unique perspectives to my work.",
     },
     {
       title: "Let's Connect:",
-      content: "If you have opportunities, collaborations, or just want to chat about coding, feel free to reach out. (you'll find the relevant information in the 'CONTACT' section also located in the navBar or below in the footer) I'm excited about the journey ahead and eager to explore new challenges. Thanks for being a part of my coding adventure, and stay tuned for more updates on my projects and endeavors!"
-    }
+      content:
+        "If you have opportunities, collaborations, or just want to chat about coding, feel free to reach out. (you'll find the relevant information in the 'CONTACT' section also located in the navBar or below in the footer) I'm excited about the journey ahead and eager to explore new challenges. Thanks for being a part of my coding adventure, and stay tuned for more updates on my projects and endeavors!",
+    },
   ];
 
   return (
@@ -69,7 +74,11 @@ const Home = () => {
 
             {/* Render cards for each section */}
             {sections.map((section, index) => (
-              <AboutMeCard key={index} title={section.title} content={section.content} />
+              <AboutMeCard
+                key={index}
+                title={section.title}
+                content={section.content}
+              />
             ))}
           </div>
 
@@ -78,44 +87,44 @@ const Home = () => {
             <div className="text-center central">
               {/* Badges */}
               <div className="card">
-              <div className="card-body">
-              <div className="padder icons">
-                <FontAwesomeIcon
-                  icon={faHtml5}
-                  size="3x"
-                  style={{ margin: "1rem", padding: "1rem" }}
-                />
-                <FontAwesomeIcon
-                  icon={faCss3Alt}
-                  size="3x"
-                  style={{ margin: "1rem", padding: "1rem" }}
-                />
-                <FontAwesomeIcon
-                  icon={faBootstrap}
-                  size="3x"
-                  style={{ margin: "1rem", padding: "1rem" }}
-                />
-                <FontAwesomeIcon
-                  icon={faJs}
-                  size="3x"
-                  style={{ margin: "1rem", padding: "1rem" }}
-                />
-                <FontAwesomeIcon
-                  icon={faReact}
-                  size="3x"
-                  style={{ margin: "1rem", padding: "1rem" }}
-                />
-                <FontAwesomeIcon
-                  icon={faNodeJs}
-                  size="3x"
-                  style={{ margin: "1rem", padding: "1rem" }}
-                />
-                {/* Add more badges as needed */}
-              </div>
-              </div>
+                <div className="card-body">
+                  <div className="padder icons">
+                    <FontAwesomeIcon
+                      icon={faHtml5}
+                      size="3x"
+                      style={{ margin: "1rem", padding: "1rem" }}
+                    />
+                    <FontAwesomeIcon
+                      icon={faCss3Alt}
+                      size="3x"
+                      style={{ margin: "1rem", padding: "1rem" }}
+                    />
+                    <FontAwesomeIcon
+                      icon={faBootstrap}
+                      size="3x"
+                      style={{ margin: "1rem", padding: "1rem" }}
+                    />
+                    <FontAwesomeIcon
+                      icon={faJs}
+                      size="3x"
+                      style={{ margin: "1rem", padding: "1rem" }}
+                    />
+                    <FontAwesomeIcon
+                      icon={faReact}
+                      size="3x"
+                      style={{ margin: "1rem", padding: "1rem" }}
+                    />
+                    <FontAwesomeIcon
+                      icon={faNodeJs}
+                      size="3x"
+                      style={{ margin: "1rem", padding: "1rem" }}
+                    />
+                    {/* Add more badges as needed */}
+                  </div>
+                </div>
               </div>
               {/* Image */}
-              
+
               <img
                 src={Me}
                 className="d-block mx-lg-auto img-fluid rounded-circle mt-3 smallPadder"
@@ -137,7 +146,6 @@ const Home = () => {
 };
 
 export default Home;
-
 
 //to do:
 
