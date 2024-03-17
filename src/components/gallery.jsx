@@ -1,5 +1,4 @@
 // src/components/gallery.jsx
-// src/components/gallery.jsx
 import React from 'react';
 
 const Gallery = () => {
@@ -45,6 +44,7 @@ const Gallery = () => {
 };
 
 export default Gallery;
+
 
 
 // add project cards that rotate when next button clicked (display 3 each on desktop and 1 on mobile, meaning media query for this)

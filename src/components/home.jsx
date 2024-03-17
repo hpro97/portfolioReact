@@ -86,9 +86,11 @@ const Home = () => {
           <div className="col-lg-6 d-flex align-items-center justify-content-center">
             <div className="text-center central">
               {/* Badges */}
-              <div className="card">
-                <div className="card-body">
-                  <div className="padder icons">
+              <h1> skills </h1>
+              <hr />
+              <div className="padder icons">
+                <div className="card">
+                  <div className="card-body">
                     <FontAwesomeIcon
                       icon={faHtml5}
                       size="3x"
