@@ -152,4 +152,3 @@ export default Home;
 
 //to do:
 
-//rework with bootstrap components like cards on contact sec

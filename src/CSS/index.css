@@ -10,6 +10,30 @@ colour pallete
 #2E0C33
 */
 
+@media screen and (max-width: 800px) {
+  footer {
+    display: none;
+  }
+}
+@media (max-width: 1200px) {
+
+  .icons {
+    display: inline-block;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+  }
+
+  .central {
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+    margin: 2rem;
+  }
+}
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -174,23 +198,4 @@ button:focus-visible {
   padding: 1rem;
 }
 
-}
-
-@media (max-width: 1200px) {
-
-  .icons {
-    display: inline-block;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-
-  }
-
-  .central {
-    text-align: center;
-    justify-content: space-around;
-    align-items: center;
-    padding: 2rem;
-    margin: 2rem;
-  }
 }
