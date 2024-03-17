@@ -82,7 +82,7 @@ const Contact = () => {
             </div>
           </div>
 
-          {/* Empty card */}
+          {/* CV */}
           <div className="col-md-12">
             <div className="card mb-4">
               <div className="card-body p-4 d-flex flex-column align-items-center justify-content-center">

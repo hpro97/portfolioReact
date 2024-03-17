@@ -88,7 +88,9 @@ const Home = () => {
               {/* Badges */}
               <h1> skills </h1>
               <hr />
-              <p className="padderAlt">HTML, CSS, Bootstrap, JavaScript, jQuery, React, Node.js</p>
+              <p className="padderAlt">
+                HTML, CSS, Bootstrap, JavaScript, jQuery, React, Node.js
+              </p>
               <div className="padderAlt icons">
                 <div className="card">
                   <div className="card-body">
@@ -140,10 +142,12 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <br />
-      <br />
-      <br />
-      <br />
+      <div className="footerFixer">
+        <br />
+        <br />
+        <br />
+        <br />
+      </div>
     </div>
   );
 };
@@ -151,4 +155,3 @@ const Home = () => {
 export default Home;
 
 //to do:
-

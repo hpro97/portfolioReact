@@ -1,4 +1,7 @@
 // src/components/gallery.jsx
+
+// git add . && git commit -m "first commit" && git push
+
 import React from 'react';
 
 const Gallery = () => {
