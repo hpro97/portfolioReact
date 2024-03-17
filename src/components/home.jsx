@@ -88,7 +88,8 @@ const Home = () => {
               {/* Badges */}
               <h1> skills </h1>
               <hr />
-              <div className="padder icons">
+              <p className="padderAlt">HTML, CSS, Bootstrap, JavaScript, jQuery, React, Node.js</p>
+              <div className="padderAlt icons">
                 <div className="card">
                   <div className="card-body">
                     <FontAwesomeIcon
