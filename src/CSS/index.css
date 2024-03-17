@@ -201,7 +201,6 @@ button:focus-visible {
   .navContainer,
   {
   display: block;
-  /* Change to block for smaller screens */
 }
 
 .blockMedia {
