@@ -42,6 +42,20 @@ const Gallery = () => {
       deployedLink: "https://hpro97.github.io/WeatherDashboard/", // Replace "#" with actual deployed link
       githubLink: "https://github.com/hpro97/WeatherDashboard", // Replace "#" with actual GitHub link
     },
+
+    //add:
+
+    // https://github.com/hpro97/personalPlanner
+    // https://github.com/hpro97/Quizz
+    // https://github.com/hpro97/passwordGenerator
+    // https://github.com/hpro97/blackjack
+    // https://github.com/hpro97/Console-Finances
+    // https://github.com/hpro97/Bootstrap-Portfolio
+    // https://github.com/hpro97/portfolio
+    // https://github.com/hpro97/seo_optimization
+
+    //add first sentra pass
+    //add second react portfolio
     
   ];
 
@@ -72,18 +86,5 @@ const Gallery = () => {
 export default Gallery;
 
 
-
-// add project cards that rotate when next button clicked (display 3 each on desktop and 1 on mobile, meaning media query for this)
-// add pic for each
-
-// add name for each
-
-// add description for each
-// add what i liked
-// add what i found challenging
-// add what i learned
-
-// add tech used for each
-
-// add link for each deployed
-// add link for each github
+//make pic not background but object
+//rejigg info inside carousel
