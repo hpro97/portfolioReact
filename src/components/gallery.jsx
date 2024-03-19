@@ -33,6 +33,15 @@ const Gallery = () => {
       deployedLink: "https://hpro97.github.io/DateNight/", // Replace "#" with actual deployed link
       githubLink: "https://github.com/hpro97/DateNight", // Replace "#" with actual GitHub link
     },
+    {
+      name: "Weather Dashboard",
+      image: "src/assets/weatherDash.png",
+      description: "Weather dash using API calls to display the current weather and 5 day forecast",
+      learned: "i learned more about APIs, and the use of local storage, whilst how to impelement new tech i'm unfamiliar with",
+      techUsed: "API calls, Local storage, Jquery, DayJS, javascript, html, css",
+      deployedLink: "https://hpro97.github.io/WeatherDashboard/", // Replace "#" with actual deployed link
+      githubLink: "https://github.com/hpro97/WeatherDashboard", // Replace "#" with actual GitHub link
+    },
     
   ];
 
