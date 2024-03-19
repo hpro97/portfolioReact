@@ -25,13 +25,13 @@ const Gallery = () => {
       githubLink: "https://github.com/hpro97/README-Generator/blob/main/README%20test.md", // Replace "#" with actual GitHub link
     },
     {
-      name: "Readme Generator",
-      image: "src/assets/readmeGen.png",
-      description: "Command line prompts user for input and generates a README file from a template i created",
-      learned: "i learned more about npm, Inquirer, use of badges and the possibility of using a template to dynamically generate a file",
-      techUsed: "Inquirer, npm, Node.js, json, javascript, html, css",
-      deployedLink: "https://github.com/hpro97/README-Generator?tab=readme-ov-file", // Replace "#" with actual deployed link
-      githubLink: "https://github.com/hpro97/README-Generator/blob/main/README%20test.md", // Replace "#" with actual GitHub link
+      name: "Date Night",
+      image: "src/assets/dateNight.png",
+      description: "web application that seamlessly combines the worlds of gastronomy and cinema, providing users with specific search criteria and random recommendations for a delightful night in.",
+      learned: "i learned more about APIs, managing a project (whilst sill implementing my own code alongside), people skills, overcoming deadlines and focusing on an MVP with a mobile first approach, all whilst overcoming obstacles and maintianing a positive mindset",
+      techUsed: "API calls, Kambam, json, javascript, html, css",
+      deployedLink: "https://hpro97.github.io/DateNight/", // Replace "#" with actual deployed link
+      githubLink: "https://github.com/hpro97/DateNight", // Replace "#" with actual GitHub link
     },
     
   ];
