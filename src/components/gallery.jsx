@@ -11,19 +11,29 @@ const Gallery = () => {
       image: "src/assets/teamGen.png",
       description: "Command line prompts user for input and generates a team profile",
       learned: "i learned more about npm, jest, test driven devlopement, using the command line and more",
-      techUsed: "Jest, Node.js, json, javascript, html, css",
+      techUsed: "Jest, npm, Node.js, json, javascript, html, css",
       deployedLink: "https://hpro97.github.io/TeamProfileGen/", // Replace "#" with actual deployed link
       githubLink: "https://github.com/hpro97/TeamProfileGen", // Replace "#" with actual GitHub link
     },
     {
       name: "Readme Generator",
-      image: "src/assets/image1.jpg",
-      description: "Command line prompts user for input and generates a team profile",
-      learned: "i learned more about npm, jest, test driven devlopement, using the command line and more",
-      techUsed: "Jest, Node.js, json, javascript, html, css",
-      deployedLink: "#", // Replace "#" with actual deployed link
-      githubLink: "#", // Replace "#" with actual GitHub link
+      image: "src/assets/readmeGen.png",
+      description: "Command line prompts user for input and generates a README file from a template i created",
+      learned: "i learned more about npm, Inquirer, use of badges and the possibility of using a template to dynamically generate a file",
+      techUsed: "Inquirer, npm, Node.js, json, javascript, html, css",
+      deployedLink: "https://github.com/hpro97/README-Generator?tab=readme-ov-file", // Replace "#" with actual deployed link
+      githubLink: "https://github.com/hpro97/README-Generator/blob/main/README%20test.md", // Replace "#" with actual GitHub link
     },
+    {
+      name: "Readme Generator",
+      image: "src/assets/readmeGen.png",
+      description: "Command line prompts user for input and generates a README file from a template i created",
+      learned: "i learned more about npm, Inquirer, use of badges and the possibility of using a template to dynamically generate a file",
+      techUsed: "Inquirer, npm, Node.js, json, javascript, html, css",
+      deployedLink: "https://github.com/hpro97/README-Generator?tab=readme-ov-file", // Replace "#" with actual deployed link
+      githubLink: "https://github.com/hpro97/README-Generator/blob/main/README%20test.md", // Replace "#" with actual GitHub link
+    },
+    
   ];
 
   return (
