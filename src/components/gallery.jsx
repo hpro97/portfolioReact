@@ -78,15 +78,21 @@ const Gallery = () => {
       deployedLink: "https://hpro97.github.io/Console-Finances/", // Replace "#" with actual deployed link
       githubLink: "https://github.com/hpro97/Console-Finances", // Replace "#" with actual GitHub link
     },
+    {
+      name: "Bootstrap Portfolio",
+      image: "src/assets/bootstrap.png",
+      description: "bootstrap portfolio proof of concept of knowledge learned",
+      learned: "i learned about using bootstrap and CSS libraries to style pages",
+      techUsed: "html, css",
+      deployedLink: "https://hpro97.github.io/Bootstrap-Portfolio/", // Replace "#" with actual deployed link
+      githubLink: "https://github.com/hpro97/Bootstrap-Portfolio", // Replace "#" with actual GitHub link
+    },
 
-    //add:
-
-    // https://github.com/hpro97/Bootstrap-Portfolio
+    // 
     // https://github.com/hpro97/portfolio
     // https://github.com/hpro97/seo_optimization
 
-    //add first sentra pass
-    //add second react portfolio
+
     
   ];
 
@@ -116,6 +122,8 @@ const Gallery = () => {
 
 export default Gallery;
 
+    //add first sentra pass
+    //add second react portfolio
 
 //make pic not background but object
 //rejigg info inside carousel
