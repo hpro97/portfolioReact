@@ -29,7 +29,7 @@ const Gallery = () => {
       image: "src/assets/dateNight.png",
       description: "web application that seamlessly combines the worlds of gastronomy and cinema, providing users with specific search criteria and random recommendations for a delightful night in.",
       learned: "i learned more about APIs, managing a project (whilst sill implementing my own code alongside), people skills, overcoming deadlines and focusing on an MVP with a mobile first approach, all whilst overcoming obstacles and maintianing a positive mindset",
-      techUsed: "API calls, Kambam, json, javascript, html, css",
+      techUsed: "API calls, Kambam, json, javascript, html, css, bootstrap",
       deployedLink: "https://hpro97.github.io/DateNight/", // Replace "#" with actual deployed link
       githubLink: "https://github.com/hpro97/DateNight", // Replace "#" with actual GitHub link
     },
@@ -38,7 +38,7 @@ const Gallery = () => {
       image: "src/assets/weatherDash.png",
       description: "Weather dash using API calls to display the current weather and 5 day forecast",
       learned: "i learned more about APIs, and the use of local storage, whilst how to impelement new tech i'm unfamiliar with",
-      techUsed: "API calls, Local storage, Jquery, DayJS, javascript, html, css",
+      techUsed: "API calls, Local storage, Jquery, DayJS, javascript, html, css, bootstrap",
       deployedLink: "https://hpro97.github.io/WeatherDashboard/", // Replace "#" with actual deployed link
       githubLink: "https://github.com/hpro97/WeatherDashboard", // Replace "#" with actual GitHub link
     },
@@ -83,16 +83,28 @@ const Gallery = () => {
       image: "src/assets/bootstrap.png",
       description: "bootstrap portfolio proof of concept of knowledge learned",
       learned: "i learned about using bootstrap and CSS libraries to style pages",
-      techUsed: "html, css",
+      techUsed: "html, css, bootstrap",
       deployedLink: "https://hpro97.github.io/Bootstrap-Portfolio/", // Replace "#" with actual deployed link
       githubLink: "https://github.com/hpro97/Bootstrap-Portfolio", // Replace "#" with actual GitHub link
     },
-
-    // 
-    // https://github.com/hpro97/portfolio
-    // https://github.com/hpro97/seo_optimization
-
-
+    {
+      name: "Portfolio",
+      image: "src/assets/portfolio.png",
+      description: "portfolio proof of concept of knowledge learned",
+      learned: "i learned the basics of HTML and CSS",
+      techUsed: "html, css",
+      deployedLink: "https://hpro97.github.io/portfolio/", // Replace "#" with actual deployed link
+      githubLink: "https://github.com/hpro97/portfolio", // Replace "#" with actual GitHub link
+    },
+    {
+      name: "SEO Optimization",
+      image: "src/assets/seo.png",
+      description: "graded challenge portfolio proof of concept of knowledge learned",
+      learned: "i learned the basics of HTML and SEO",
+      techUsed: "html",
+      deployedLink: "https://hpro97.github.io/seo_optimization/#social-media-marketing", // Replace "#" with actual deployed link
+      githubLink: "https://github.com/hpro97/seo_optimization", // Replace "#" with actual GitHub link
+    },
     
   ];
 
@@ -122,8 +134,8 @@ const Gallery = () => {
 
 export default Gallery;
 
-    //add first sentra pass
-    //add second react portfolio
+    //add first sentra pass project
+    //add second react portfolio project
 
 //make pic not background but object
 //rejigg info inside carousel
