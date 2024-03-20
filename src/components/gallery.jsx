@@ -42,11 +42,27 @@ const Gallery = () => {
       deployedLink: "https://hpro97.github.io/WeatherDashboard/", // Replace "#" with actual deployed link
       githubLink: "https://github.com/hpro97/WeatherDashboard", // Replace "#" with actual GitHub link
     },
+    {
+      name: "Personal Planner",
+      image: "src/assets/personalPlanner.png",
+      description: "Personal Planner with color coordination and local storage",
+      learned: "i learned more about local storage, Jquery libraries and reusing JS function",
+      techUsed: "local storage, Jquery, DayJS, javascript, html, css",
+      deployedLink: "https://hpro97.github.io/personalPlanner/", // Replace "#" with actual deployed link
+      githubLink: "https://github.com/hpro97/personalPlanner", // Replace "#" with actual GitHub link
+    },
+    {
+      name: "Quizz",
+      image: "src/assets/quizz.png",
+      description: "Brief quizz",
+      learned: "i learned more about displaying and hiding information to avoid page reloading and basic JS funcitons like counters built from scratch",
+      techUsed: "local storage, Jquery, javascript, html, css",
+      deployedLink: "https://hpro97.github.io/Quizz/", // Replace "#" with actual deployed link
+      githubLink: "https://github.com/hpro97/Quizz", // Replace "#" with actual GitHub link
+    },
 
     //add:
 
-    // https://github.com/hpro97/personalPlanner
-    // https://github.com/hpro97/Quizz
     // https://github.com/hpro97/passwordGenerator
     // https://github.com/hpro97/blackjack
     // https://github.com/hpro97/Console-Finances
