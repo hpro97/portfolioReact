@@ -69,11 +69,18 @@ const Gallery = () => {
       deployedLink: "https://hpro97.github.io/passwordGenerator/", // Replace "#" with actual deployed link
       githubLink: "https://github.com/hpro97/passwordGenerator", // Replace "#" with actual GitHub link
     },
+    {
+      name: "Console Finances",
+      image: "src/assets/console.png",
+      description: "math functions example for company finances using console to display results",
+      learned: "i learned about using the console and doing advanced math funcitons in JS",
+      techUsed: "javascript, html, css",
+      deployedLink: "https://hpro97.github.io/Console-Finances/", // Replace "#" with actual deployed link
+      githubLink: "https://github.com/hpro97/Console-Finances", // Replace "#" with actual GitHub link
+    },
 
     //add:
 
-    // https://github.com/hpro97/blackjack
-    // https://github.com/hpro97/Console-Finances
     // https://github.com/hpro97/Bootstrap-Portfolio
     // https://github.com/hpro97/portfolio
     // https://github.com/hpro97/seo_optimization
