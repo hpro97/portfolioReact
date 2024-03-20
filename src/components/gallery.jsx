@@ -60,10 +60,18 @@ const Gallery = () => {
       deployedLink: "https://hpro97.github.io/Quizz/", // Replace "#" with actual deployed link
       githubLink: "https://github.com/hpro97/Quizz", // Replace "#" with actual GitHub link
     },
+    {
+      name: "PassGen",
+      image: "src/assets/passGen.png",
+      description: "random password generator",
+      learned: "i learned more vainilla JS and implementing things like alerts and Math.random/floor",
+      techUsed: "javascript, html, css",
+      deployedLink: "https://hpro97.github.io/passwordGenerator/", // Replace "#" with actual deployed link
+      githubLink: "https://github.com/hpro97/passwordGenerator", // Replace "#" with actual GitHub link
+    },
 
     //add:
 
-    // https://github.com/hpro97/passwordGenerator
     // https://github.com/hpro97/blackjack
     // https://github.com/hpro97/Console-Finances
     // https://github.com/hpro97/Bootstrap-Portfolio
