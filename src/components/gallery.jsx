@@ -114,10 +114,10 @@ const Gallery = () => {
         <div key={index} className={`carousel-item ${index === 0 ? 'active' : ''}`}>
           <img src={project.image} className="d-block w-100" alt={project.name} />
           <div className="carousel-caption d-none d-md-block">
-            <h5>{project.name}</h5>
-            <p>{project.description}</p>
-            <p>{project.learned}</p>
-            <p>{project.techUsed}</p>
+            <h5>Name: {project.name}</h5>
+            <p>Description: {project.description}</p>
+            <p>Learned: {project.learned}</p>
+            <p>Tech: {project.techUsed}</p>
             <a href={project.deployedLink} target="_blank" rel="noopener noreferrer">
               Deployed Link
             </a>
