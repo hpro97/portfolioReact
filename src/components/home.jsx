@@ -129,7 +129,6 @@ const Home = () => {
                 </div>
               </div>
               {/* Image */}
-
               <img
                 src={Me}
                 className="d-block mx-lg-auto img-fluid rounded-circle mt-3 smallPadder"
@@ -153,5 +152,6 @@ const Home = () => {
 };
 
 export default Home;
+
 
 //to do:

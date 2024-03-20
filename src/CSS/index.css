@@ -214,6 +214,17 @@ button:focus-visible {
 
 }
 
+@media (min-width: 768px) and (max-width: 991px) {
+  .central {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    margin: 2rem;
+  }
+}
+
 @media screen and (max-width: 800px) {
   footer {
     display: none;
