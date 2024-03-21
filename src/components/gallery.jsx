@@ -109,7 +109,7 @@ const Gallery = () => {
   ];
 
   return (
-    <>
+    <div className="carousel-inner">
       {projects.map((project, index) => (
         <div key={index} className={`carousel-item ${index === 0 ? 'active' : ''}`}>
           <img src={project.image} className="d-block w-100" alt={project.name} />
@@ -128,7 +128,7 @@ const Gallery = () => {
           </div>
         </div>
       ))}
-    </>
+    </div>
   );
 };
 

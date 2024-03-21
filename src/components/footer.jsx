@@ -33,9 +33,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
-
-
-//to do:
-
-//footer covers, not displays beneath

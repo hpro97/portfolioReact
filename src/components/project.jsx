@@ -22,7 +22,7 @@ const Project = () => {
                 data-bs-ride="carousel"
               >
                 <div className="carousel-inner">
-                  {/* Gallery */}
+                  {/* Gallery should be rendered here */}
                   <Gallery />
                 </div>
                 {/* Carousel Controls */}
