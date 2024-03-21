@@ -15,17 +15,14 @@ const Project = () => {
         <div className="col-lg-6">
           <div className="card">
             <div className="card-body">
-              {/* Carousel */}
               <div
                 id="carouselExampleControls"
                 className="carousel slide"
                 data-bs-ride="carousel"
               >
                 <div className="carousel-inner">
-                  {/* Gallery should be rendered here */}
                   <Gallery />
                 </div>
-                {/* Carousel Controls */}
                 <button
                   className="carousel-control-prev"
                   type="button"
@@ -51,7 +48,6 @@ const Project = () => {
                   <span className="visually-hidden">Next</span>
                 </button>
               </div>
-              {/* End of Carousel */}
             </div>
           </div>
         </div>
@@ -70,5 +66,3 @@ const Project = () => {
 };
 
 export default Project;
-
-//carousel not turning
