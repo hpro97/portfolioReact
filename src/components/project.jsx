@@ -56,6 +56,15 @@ const Project = () => {
           </div>
         </div>
       </div>
+      <div className="footerFixer">
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+      </div>
     </div>
   );
 };
