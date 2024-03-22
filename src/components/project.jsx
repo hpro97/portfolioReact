@@ -12,13 +12,12 @@ const Project = () => {
       <hr className="w-75" />
 
       <div className="row justify-content-center mt-5">
-        <div className="col-lg-6">
-          <div className="card">
+        <div className="col-lg-9">
+          <div className="card" style={{ width: '100%' }}>
             <div className="card-body">
               <div
                 id="carouselExampleControls"
                 className="carousel slide"
-                data-bs-ride="carousel"
               >
                 <div className="carousel-inner">
                   <Gallery />

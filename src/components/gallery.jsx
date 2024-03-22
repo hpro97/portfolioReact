@@ -27,7 +27,7 @@ const Gallery = () => {
     {
       name: "Date Night",
       image: "src/assets/dateNight.png",
-      description: "web application that seamlessly combines the worlds of gastronomy and cinema, providing users with specific search criteria and random recommendations for a delightful night in.",
+      description: "web application for food and cinema with specific search criteria and random recommendations for a delightful night in.",
       learned: "i learned more about APIs, managing a project (whilst sill implementing my own code alongside), people skills, overcoming deadlines and focusing on an MVP with a mobile first approach, all whilst overcoming obstacles and maintianing a positive mindset",
       techUsed: "API calls, Kambam, json, javascript, html, css, bootstrap",
       deployedLink: "https://hpro97.github.io/DateNight/", // Replace "#" with actual deployed link
@@ -111,18 +111,18 @@ const Gallery = () => {
   return (
     <div className="carousel-inner">
       {projects.map((project, index) => (
-        <div key={index} className={`carousel-item ${index === 0 ? 'active' : ''}`}>
+        <div key={index} className={`justify-content-center carousel-item ${index === 0 ? 'active' : ''}`}>
           <img src={project.image} className="d-block w-100" alt={project.name} />
-          <div className="carousel-caption d-none d-md-block">
-            <h5>Name: {project.name}</h5>
-            <p>Description: {project.description}</p>
-            <p>Learned: {project.learned}</p>
-            <p>Tech: {project.techUsed}</p>
-            <a href={project.deployedLink} target="_blank" rel="noopener noreferrer">
+          <div className="carousel-caption carousel-caption-beneath d-md-block carouselText">
+            <p><strong className='textStrong'>Name:</strong> {project.name}</p>
+            <p><strong className='textStrong'>Description:</strong> {project.description}</p>
+            <p><strong className='textStrong'>Learned:</strong> {project.learned}</p>
+            <p><strong className='textStrong'>Tech:</strong> {project.techUsed}</p>
+            <a className="customButton textStrong" href={project.deployedLink} target="_blank" rel="noopener noreferrer">
               Deployed Link
             </a>
             <br />
-            <a href={project.githubLink} target="_blank" rel="noopener noreferrer">
+            <a className="customButton textStrong" href={project.githubLink} target="_blank" rel="noopener noreferrer">
               GitHub Link
             </a>
           </div>
