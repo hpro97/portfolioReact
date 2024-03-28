@@ -261,7 +261,7 @@ button:focus-visible {
 
 @media (max-width: 550px) {
 
-  .navContainer,
+  .navContainer
   {
   display: block;
 }
