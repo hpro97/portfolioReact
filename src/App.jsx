@@ -4,13 +4,13 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-import Home from './components/Home.jsx';
-import Project from './components/Project.jsx';
-import Contact from './components/Contact.jsx';
+import Home from '../src/components/Home.jsx';
+import Project from '../src/componentsProject.jsx';
+import Contact from '../src/componentsContact.jsx';
 
-import Header from './components/Header.jsx';
-import Footer from './components/Footer.jsx';
-import './CSS/index.css';
+import Header from '../src/components/Header.jsx';
+import Footer from '../src/components/Footer.jsx';
+import '../src/CSS/index.css';
 
 const App = () => {
   return (
