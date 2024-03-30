@@ -18,9 +18,9 @@ const App = () => {
       <div className="App">
         <Header />
         <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/projects" element={<Project />} />
-        <Route path="/contact" element={<Contact />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/projects" element={<Project />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
       </div>
@@ -29,3 +29,4 @@ const App = () => {
 };
 
 export default App;
+
