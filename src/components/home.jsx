@@ -13,6 +13,7 @@ import {
 
 import Me from "../assets/me.jpg";
 
+
 const hrSmall = {
   width: "70%",
 };

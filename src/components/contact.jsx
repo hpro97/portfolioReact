@@ -11,6 +11,8 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
+import cv from "../assets/cv.pdf"
+
 const Contact = () => {
   return (
     <div className="py-2">
@@ -88,7 +90,7 @@ const Contact = () => {
               <div className="card-body p-4 d-flex flex-column align-items-center justify-content-center">
                 <h5 className="card-title">My CV</h5>
                 <div className="text-center">
-                  <a href="src\assets\Entry Level Programmer.pdf">
+                  <a href={cv}>
                     <FontAwesomeIcon icon={faFile} size="3x" />
                   </a>
                 </div>

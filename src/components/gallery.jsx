@@ -4,11 +4,23 @@
 
 import React from 'react';
 
+import teamGen from '../assets/teamGen.png'
+import readmeGen from '../assets/readmeGen.png'
+import dateNight from '../assets/dateNight.png'
+import weatherDash from '../assets/weatherDash.png'
+import personalPlanner from '../assets/personalPlanner.png'
+import quizz from '../assets/quizz.png'
+import passGen from '../assets/passGen.png'
+import console from '../assets/console.png'
+import bootstrap from '../assets/bootstrap.png'
+import portfolio from '../assets/portfolio.png'
+import seo from '../assets/seo.png'
+
 const Gallery = () => {
   const projects = [
     {
       name: "Team Profile Generator",
-      image: "src/assets/teamGen.png",
+      image: teamGen,
       description: "Command line prompts user for input and generates a team profile",
       learned: "i learned more about npm, jest, test driven devlopement, using the command line and more",
       techUsed: "Jest, npm, Node.js, json, javascript, html, css",
@@ -17,7 +29,7 @@ const Gallery = () => {
     },
     {
       name: "Readme Generator",
-      image: "src/assets/readmeGen.png",
+      image: readmeGen,
       description: "Command line prompts user for input and generates a README file from a template i created",
       learned: "i learned more about npm, Inquirer, use of badges and the possibility of using a template to dynamically generate a file",
       techUsed: "Inquirer, npm, Node.js, json, javascript, html, css",
@@ -26,7 +38,7 @@ const Gallery = () => {
     },
     {
       name: "Date Night",
-      image: "src/assets/dateNight.png",
+      image: dateNight,
       description: "web application for food and cinema with specific search criteria and random recommendations for a delightful night in.",
       learned: "i learned more about APIs, managing a project (whilst sill implementing my own code alongside), people skills, overcoming deadlines and focusing on an MVP with a mobile first approach, all whilst overcoming obstacles and maintianing a positive mindset",
       techUsed: "API calls, Kambam, json, javascript, html, css, bootstrap",
@@ -35,7 +47,7 @@ const Gallery = () => {
     },
     {
       name: "Weather Dashboard",
-      image: "src/assets/weatherDash.png",
+      image: weatherDash,
       description: "Weather dash using API calls to display the current weather and 5 day forecast",
       learned: "i learned more about APIs, and the use of local storage, whilst how to impelement new tech i'm unfamiliar with",
       techUsed: "API calls, Local storage, Jquery, DayJS, javascript, html, css, bootstrap",
@@ -44,7 +56,7 @@ const Gallery = () => {
     },
     {
       name: "Personal Planner",
-      image: "src/assets/personalPlanner.png",
+      image: personalPlanner,
       description: "Personal Planner with color coordination and local storage",
       learned: "i learned more about local storage, Jquery libraries and reusing JS function",
       techUsed: "local storage, Jquery, DayJS, javascript, html, css",
@@ -53,7 +65,7 @@ const Gallery = () => {
     },
     {
       name: "Quizz",
-      image: "src/assets/quizz.png",
+      image: quizz,
       description: "Brief quizz",
       learned: "i learned more about displaying and hiding information to avoid page reloading and basic JS funcitons like counters built from scratch",
       techUsed: "local storage, Jquery, javascript, html, css",
@@ -62,7 +74,7 @@ const Gallery = () => {
     },
     {
       name: "PassGen",
-      image: "src/assets/passGen.png",
+      image: passGen,
       description: "random password generator",
       learned: "i learned more vainilla JS and implementing things like alerts and Math.random/floor",
       techUsed: "javascript, html, css",
@@ -71,7 +83,7 @@ const Gallery = () => {
     },
     {
       name: "Console Finances",
-      image: "src/assets/console.png",
+      image: console,
       description: "math functions example for company finances using console to display results",
       learned: "i learned about using the console and doing advanced math funcitons in JS",
       techUsed: "javascript, html, css",
@@ -80,7 +92,7 @@ const Gallery = () => {
     },
     {
       name: "Bootstrap Portfolio",
-      image: "src/assets/bootstrap.png",
+      image: bootstrap,
       description: "bootstrap portfolio proof of concept of knowledge learned",
       learned: "i learned about using bootstrap and CSS libraries to style pages",
       techUsed: "html, css, bootstrap",
@@ -89,7 +101,7 @@ const Gallery = () => {
     },
     {
       name: "Portfolio",
-      image: "src/assets/portfolio.png",
+      image: portfolio,
       description: "portfolio proof of concept of knowledge learned",
       learned: "i learned the basics of HTML and CSS",
       techUsed: "html, css",
@@ -98,7 +110,7 @@ const Gallery = () => {
     },
     {
       name: "SEO Optimization",
-      image: "src/assets/seo.png",
+      image: seo,
       description: "graded challenge portfolio proof of concept of knowledge learned",
       learned: "i learned the basics of HTML and SEO",
       techUsed: "html",
